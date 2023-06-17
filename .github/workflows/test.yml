@@ -16,5 +16,6 @@ jobs:
         with:
           node-version: 18
           cache: pnpm
+      - run: echo "GITHUB_ACTIONS: $GITHUB_ACTIONS"
       - run: pnpm install
       - run: ./turbo build
