@@ -19,4 +19,4 @@ jobs:
       - run: "echo \"GITHUB_ACTIONS: $GITHUB_ACTIONS\""
       - run: "echo \"TURBO_LOG_ORDER: $TURBO_LOG_ORDER\""
       - run: pnpm install
-      - run: ./turbo --skip-infer build
+      - run: ./turbo --skip-infer build --color
